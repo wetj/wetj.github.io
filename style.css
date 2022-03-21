@@ -1,5 +1,11 @@
+@font-face {
+    font-family: "coolvetica";
+    src: url("fonts/coolvetica_rg.woff") format('woff');
+}
+
 .headerContainer {
-    font-family: arial;
+    font-family: coolvetica;
     width: 100%;
     text-align: center;
 }
+
