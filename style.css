@@ -1,3 +1,5 @@
-.centered {
+.headerContainer {
+    font-family: arial;
+    width: 100%;
     text-align: center;
-  }
+}
