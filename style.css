@@ -4,6 +4,9 @@
 }
 
 .headerContainer {
+    position: absolute;
+        bottom: 0;
+        left: 0;
     font-family: coolvetica;
     width: 100%;
     text-align: center;
