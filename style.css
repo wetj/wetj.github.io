@@ -3,6 +3,9 @@
     src: url("fonts/coolvetica_rg.woff") format('woff');
 }
 
+.background-image {
+    linear-gradient: 180deg, #ABDCFF 10%, #0396FF 100%;
+}
 .headerContainer {
     position: absolute;
         bottom: 0;
