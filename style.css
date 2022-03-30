@@ -3,8 +3,9 @@
     src: url("fonts/coolvetica_rg.woff") format('woff');
 }
 .body {
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(200,255,249,0.9108018207282913) 100%);
+    background: -webkit-linear-gradient(left, transparent 0%,#fff 50%,transparent 100%); /* Chrome10+, Safari5.1+ */
+    background: -moz-linear-gradient(left, transparent 0%,#fff 50%,transparent 100%);    /* FF3.6+ */
+    background: linear-gradient(to left, transparent 0%,#fff 50%,transparent 100%);      /* W3C */
 }
 
 .logoContainer {
